@@ -20,4 +20,4 @@ const isPaired = (input) => {
   }
   return stack.length === 0;
 };
-console.log(isPaired("{[][]}"));
+console.log(isPaired("{[(])[]}"));
